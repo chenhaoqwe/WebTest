@@ -1,0 +1,25 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="WebTest:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/WebTest_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="WebTest/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="WebTest" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/../../studysoftwares/Weka-3-8/weka.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Kits/javaJar/commons-codec-1.9.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Kits/javaJar/commons-fileupload-1.2.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Kits/javaJar/commons-io-2.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Kits/javaJar/standard.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Kits/javaJar/jstl.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Kits/javaJar/jfreechart-1.0.13.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Kits/javaJar/jcommon-1.0.16.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Kits/javaJar/log4j-1.2.13.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Kits/javaJar/jfreechart-1.0.19.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
